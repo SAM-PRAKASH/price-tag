@@ -1,0 +1,50 @@
+.CardContainer {
+  display: flex;
+  justify-content:space-around;
+  border: 1px solid rgb(255, 255, 255);
+  height: 600px;
+  width: 1200px;
+  margin-top: 10%;
+  margin-left: 20%;
+  background-image: linear-gradient(to bottom right, rgb(0, 128, 255), aqua);
+  text-align: center;
+}
+
+.red {
+  color: grey;
+}
+
+
+.PriceCards {
+  width: 350px;
+  height: 550px;
+  border-radius: 0.5cm;
+  margin-top: 20px;
+  background-color: white;
+}
+.line {
+  width: 8cm;
+  height: 2px; 
+  background-color: rgb(223, 223, 223);
+  margin: 1rem auto;
+}
+.features {
+text-align: left;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 25px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: rgb(0, 140, 255);
+  border-radius: 2cm;
+}
